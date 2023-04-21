@@ -1,0 +1,74 @@
+html, body {
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-size : 16px;
+ background-color: rgb(208, 205, 205);
+ padding: 0;
+ margin : 0;
+ 
+}
+
+input {
+ border : 1px solid rgb(136, 132, 132);
+ width : 300px;
+ padding : 12px;
+ margin-left: 15px;
+ 
+}
+
+a {
+ text-decoration: none;
+ 
+}
+
+header {
+ text-align: center;
+ background-color :rgb(36, 19, 121);
+ padding : 15px;
+}
+
+header h1 {
+ color : wheat;
+ margin: 0;
+}
+
+h2 {
+ font-size : 18px;
+}
+
+.container {
+ width : 500px;
+ margin : 0 auto;
+ padding : 45px;
+}
+
+#error, #success, #info { 
+ text-align : center;
+ padding : 5px;
+ font-style: italic;
+}
+
+#error {
+ color : red;
+}
+
+#success {
+ color : rgb(3, 121, 3); 
+}
+
+p #info {
+ font-size : 16px;
+}
+
+#info a {
+ color : rgb(237, 21, 21);
+}
+
+button {
+ background-color : rgb(36, 19, 121);
+ color : wheat;
+ padding : 10px;
+ border-radius: 10%;
+ margin-top: 10px;
+ cursor: pointer;
+}
+
